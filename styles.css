@@ -7,9 +7,12 @@ body {
 
 .header {
     background-color: #1f2937;
+    padding: 16px 20%;
+}
+
+.header-bar, .hero-container {
     display: flex;
-    justify-content: space-around;
-    padding: 16px;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -17,14 +20,14 @@ body {
     color: #f9faf8;
     font-size: 24px;
     font-weight: 500;
-    flex-shrink: 0;
+    flex: 1 0 auto;
 }
 
 .header ul {
     list-style-type: none;
     margin: 0px;
     display: flex;
-    width: 450px;
+    flex: 0 1 450px;
     justify-content: space-between;
 }
 
@@ -34,4 +37,30 @@ body {
     font-weight: 300;
     text-decoration: none;
     flex: 1;
+}
+
+.hero-text {
+    flex: 1 1 450px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 300;
+}
+
+.hero-image {
+    display: flex;
+    height: 250px;
+    width: 500px;
+    background-color: #e5e7eb;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
