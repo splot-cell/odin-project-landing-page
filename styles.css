@@ -73,14 +73,19 @@ body {
     height: 250px;
     width: 500px;
     background-color: #55575b;
-    color: #e5e7eb;
+    color: #f9faf8;
+    font-weight: 300;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
 
 button.sign-up {
-    padding: 8px 16px;
+    padding: 8px 32px;
     margin-top: 8px;
     border-radius: 8px;
+    border-width: 0px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
 }
