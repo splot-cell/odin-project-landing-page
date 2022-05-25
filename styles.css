@@ -64,7 +64,7 @@ body {
     font-size: 18px;
     color: #e5e7eb;
     font-weight: 300;
-    margin: 0px;
+    margin: 2px;
 }
 
 .hero-image {
@@ -82,7 +82,7 @@ body {
 
 button.sign-up {
     padding: 8px 32px;
-    margin-top: 8px;
+    margin-top: 12px;
     border-radius: 8px;
     border-width: 0px;
     background-color: #3882f6;
