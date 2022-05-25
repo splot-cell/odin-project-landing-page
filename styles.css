@@ -5,28 +5,38 @@ body {
     margin: 0px;
 }
 
-.header {
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.darkblue {
     background-color: #1f2937;
-    padding: 16px 20%;
+}
+
+.header {
+    margin: 16px;
+    flex: 0 1 1000px;
 }
 
 .header-bar, .hero-container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding-bottom: 100px
+    margin-bottom: 100px
 }
 
 .header .logo {
     color: #f9faf8;
     font-size: 24px;
     font-weight: 500;
-    flex: 1 0 auto;
+    flex: 0 1 auto;
 }
 
 .header ul {
-    list-style-type: none;
+    list-style: none;
     margin: 0px;
+    margin-left: auto;
     display: flex;
     flex: 0 1 450px;
     justify-content: space-between;
@@ -37,7 +47,6 @@ body {
     font-size: 18px;
     font-weight: 300;
     text-decoration: none;
-    flex: 1;
 }
 
 .hero-text {
@@ -59,10 +68,12 @@ body {
 }
 
 .hero-image {
+    margin-left: auto;
     display: flex;
     height: 250px;
     width: 500px;
-    background-color: #e5e7eb;
+    background-color: #55575b;
+    color: #e5e7eb;
     align-items: center;
     justify-content: center;
     text-align: center;
