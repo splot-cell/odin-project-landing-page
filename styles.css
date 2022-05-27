@@ -132,3 +132,32 @@ button.sign-up {
     text-align: center;
     margin-top: 16px;
 }
+
+.grey {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    flex: 0 1 800px;
+    margin: 100px 16px;
+}
+
+.quote-container p {
+    color: #1f2937;
+    margin: 0px;
+}
+
+p.quote {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+p.author {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right;
+}
