@@ -157,3 +157,43 @@ p.author {
     font-weight: 700;
     text-align: right;
 }
+
+.call-to-action-container {
+    display: flex;
+    flex: 0 1 1000px;
+    justify-content: center;
+    background-color: #3882f6;
+    margin: 100px 16px;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.call-to-action-margins {
+    display: flex;
+    flex: 0 1 750px;
+    align-items: center;
+}
+
+.call-to-action-text {
+    margin-right: 8px;
+}
+
+.call-to-action-container h1 {
+    margin: 0px;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.call-to-action-container p {
+    margin: 0px;
+    color: #f9faf8;
+    font-weight: 300;
+}
+
+.call-to-action-container .sign-up {
+    border-color: #f9faf8;
+    border-width: 2px;
+    border-style: solid;
+    margin-left: auto;
+}
